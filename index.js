@@ -5,6 +5,8 @@ const bodyParser = require("body-parser");
 
 //TODO Put routers here
 // e.g. eventsRouter = require('./routes/events');
+const eventsRouter = require('./src/routes/events');
+const schedulesRouter = require ('./src/routes/schedules');
 
 
 const app = express(); 
@@ -15,6 +17,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 //TODO Use routers here
 //e.g. app.use('/events', eventsRouter);
+app.use('/events', eventsRouter);
+app.use('/schedules', schedulesRouter);
 
 
 const port = process.env.PORT || 3002;

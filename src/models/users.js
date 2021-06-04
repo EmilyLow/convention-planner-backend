@@ -1,7 +1,7 @@
 const db = require("../data/db-config");
 
 
-modules.exports = {find, findById, addUser, updateUser, removeUser};
+modules.exports = {find, findById, findUserEvents, addUser, updateUser, removeUser};
 
 
 
@@ -14,6 +14,16 @@ async function findById(id) {
         return await db("users").where({id}).first();
     } catch (err) {
         return "Error finding user: " + err;
+    }
+}
+
+//TODO Check if it works
+//User-event table
+async function findUserEvents(user_id) {
+    try {
+        return await db.select().table("user_event").innerJoin("events", "events.id", "user_event.student_id").where("user_event.user_id", user_id);
+    } catch (err) {
+        return "Error retrieving events for user: ", err;
     }
 }
 

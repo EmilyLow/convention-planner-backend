@@ -3,7 +3,7 @@ const db = require("../data/db-config");
 
 //Unsure about findByUser and findBySchedule, especially how they'll fit into routes
 //Possibly findBySchedule should go under /schedule route, and find by user should go under /user route?
-module.exports = {find, findById, findByUser, findBySchedule, addEvent, updateEvent, removeEvent};
+module.exports = {find, findById, addEvent, updateEvent, removeEvent};
 
 
 async function find() {
@@ -21,15 +21,7 @@ async function findById(id) {
 
 }
 
-//TODO: Fill in or move
-async function findByUser(userId) {
 
-}
-
-//TODO: Fill in or move
-async function findBySchedule(scheduleId) {
-
-}
 
 async function addEvent(newEvent) {
     try {
