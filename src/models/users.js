@@ -25,12 +25,12 @@ async function findByUsername(username) {
     }
 }
 
-//TODO Check if it works
-//User-event table
+
 async function findUserEvents(user_id) {
     try {
-        return await db.select().table("user_event").innerJoin("events", "events.id", "user_event.student_id").where("user_event.user_id", user_id);
+        return await db.select().table("user_event").innerJoin("events", "events.id", "user_event.event_id").where("user_event.user_id", user_id);
     } catch (err) {
+        console.log(err);
         return "Error retrieving events for user: ", err;
     }
 }

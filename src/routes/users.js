@@ -32,8 +32,18 @@ router.get('/:id', async (req, res, next) => {
     }
 })
 
+router.get('/:id/events', async (req, res, next) => {
+    const id = req.params.id;
+    console.log("Test console log");
+    try {
+        res.json(await Users.findUserEvents(id));
+    } catch {
+        next(err);
+    }
+})
 
-//TO DO Finish
+
+//TO DO check
 router.post('/auth/register', async (req, res, next) => {
     try {
         const {username, password} = req.body;
