@@ -3,8 +3,7 @@ const cors = require("cors");
 const express = require("express");
 const bodyParser = require("body-parser");
 
-//TODO Put routers here
-// e.g. eventsRouter = require('./routes/events');
+
 const eventsRouter = require('./src/routes/events');
 const schedulesRouter = require ('./src/routes/schedules');
 const usersRouter = require('./src/routes/users');
@@ -15,10 +14,10 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-//TODO Use routers here
-//e.g. app.use('/events', eventsRouter);
+
 app.use('/events', eventsRouter);
 app.use('/schedules', schedulesRouter);
+app.use('/users', usersRouter);
 
 //Error handling middleware
 app.use((err, req, res, next) => {
