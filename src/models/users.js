@@ -1,7 +1,7 @@
 const db = require("../data/db-config");
 
 
-modules.exports = {find, findById, findUserEvents, addUser, updateUser, removeUser};
+module.exports = {find, findById, findByUsername, findUserEvents, addUser, updateUser, removeUser};
 
 
 
@@ -13,6 +13,14 @@ async function findById(id) {
     try {
         return await db("users").where({id}).first();
     } catch (err) {
+        return "Error finding user: " + err;
+    }
+}
+
+async function findByUsername(username) {
+    try{
+        return await db("users").where({username}).first();
+    } catch(err) {
         return "Error finding user: " + err;
     }
 }
@@ -37,7 +45,7 @@ async function addUser (newUser) {
     
 }
 
-function updateUser(id, newUser) {
+async function updateUser(id, newUser) {
     try {
 
         await db("users").where({id}).update(newUser);
@@ -49,7 +57,7 @@ function updateUser(id, newUser) {
     }
 }
 
-function removeUser(id) {
+async function removeUser(id) {
     try {
         return await db('users').where({id}).del();
  

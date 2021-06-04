@@ -1,0 +1,96 @@
+const express = require('express');
+const router = express.Router();
+
+const Users = require("../models/users");
+
+const { restrict } = require("../restrict");
+const bcrypt = require("bcryptjs");
+const jwt = require("jsonwebtoken");
+const secrets = require("../secrets");
+
+
+//TODO Double check this works
+//TODO Check if this needs to happen elsewhere, add once you know it works
+router.get('/', restrict, async(req, res, next) => {
+    try{
+        res.json(await Users.find());
+
+    } catch(err) {
+        next(err);
+    }
+})
+
+
+//Leaving this unrestricted temporarily
+router.get('/:id', async (req, res, next) => {
+    const id = req.params.id;
+
+    try {
+        res.json(await Users.findById(id));
+    } catch(err) {
+        next(err);
+    }
+})
+
+
+//TO DO Finish
+router.post('/auth/register', async (req, res, next) => {
+    try {
+        const {username, password} = req.body;
+        const user = await Users.findByUsername(username);
+
+        if(user) {
+            return res.status(409).json({
+                message: "Username is taken",
+            })
+        }
+
+        const newUser = await Users.addUser({
+            username, password: await bycrypt.hash(password, 11),
+        })
+
+        res.status(201).json(newUser);
+
+    } catch(err) {
+        next(err);
+    }
+});
+
+router.post('/auth/login', async (req, res, next) => {
+
+    try {
+
+        const {username, password} = req.body;
+        const user = await Users.findByUsername(username);
+
+        if(!user) {
+            return res.status(401).json({
+                message: "Invalid Credentials",
+            })
+        }
+
+        const passwordValid = await bcrypt.compare(password, user.password);
+
+        if(!passwordValid) {
+            return res.status(401).json({
+                message: "Invalid Credentials",
+            })
+        }
+
+        const token = jwt.sign({
+            userID: user.id}, secrets.jwtSecret)
+
+            res.cookie("token", token);
+            res.json({
+                message: `Welcome ${user.username}`, token,
+            })
+     
+
+    } catch (err) {
+        next(err);
+    }
+})
+
+//TODO Logout
+
+module.exports = router;
