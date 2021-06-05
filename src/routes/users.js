@@ -45,8 +45,10 @@ router.get('/:id/events', async (req, res, next) => {
 
 //TO DO check
 router.post('/auth/register', async (req, res, next) => {
+    console.log("Auth register");
     try {
         const {username, password} = req.body;
+        console.log("Inputs", username, ":", password)
         const user = await Users.findByUsername(username);
 
         if(user) {
@@ -56,7 +58,7 @@ router.post('/auth/register', async (req, res, next) => {
         }
 
         const newUser = await Users.addUser({
-            username, password: await bycrypt.hash(password, 11),
+            username: username, password: await bcrypt.hash(password, 11),
         })
 
         res.status(201).json(newUser);

@@ -36,8 +36,9 @@ async function findUserEvents(user_id) {
 }
 
 async function addUser (newUser) {
+   
     try {
-        const id = await db("users").insert(user);
+        const id = await db("users").insert(newUser);
         return findById(id);
     } catch(err) {
         return "Error adding user: " + err;
