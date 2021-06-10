@@ -1,0 +1,80 @@
+[
+    {
+      id: 13,
+      schedule_id: 2,
+      event_name: "Scripturam Obscuram: Remarkable Unsung Authors",
+      speaker: "Michael Bukowski, Gemma Files, Fiona Maeve Geist, Derrick Hussey, Leslie Klinger (M), Victor LaVelle",
+      summary: "We all known the particular struggle of trying to discover authors whose work is so novel, so new (to us, at least!), so very important, and whose works just seem to slip through the cracks of the critical establishment. Allow us the chance to broaden your horizons with a panel of experts on the obscure as they introduce us to some favorite writers with whom we may not be familiar. ",
+      summary: "Capital Ballroom, Graduate 2nd Floor",
+      start_time: "2019-08-23T14:00:00.000Z",
+      end_time: "2019-08-23T15:15:00.000Z",
+      start_col: 14,
+      span: 4,
+      color: "#ffffba"
+    },
+    {
+      id: 14,
+      schedule_id: 2,
+      event_name: "Sermons From The Hill Of Dreams: Arthur Machen",
+      speaker: "Michael Dirda, Matthew Jaffe, John Langan (M), Carrie Laben, L.C. von Hessen",
+      summary: "Writer and mystic Arthur Llewellyn Jones, better known to readers as Arthur Machen, was one of the most important figures in weird/horror literature around the turn of the last century. His unique blend of ancient folklore, spiritual and occult ideas, and thoroughly modern sensibilities led him to create a body of work that's seen as a towering achievement. Come join us as we explore his work and its lasting influence on the field as a whole.",
+      summary: "Newport-Washington, Omni 3rd Floor",
+      start_time: "2019-08-23T14:00:00.000Z",
+      end_time: "2019-08-23T15:15:00.000Z",
+      start_col: 18,
+      span: 4,
+      color: "#ffffba"
+    },
+    {
+      id: 15,
+      schedule_id: 2,
+      event_name: "Pulp History",
+      speaker: "Jason Ray Carney, Scott Connors (M), Steven Mariconda, Will Murray, Darrell Schweitzer, Jason Bradley Thompson",
+      summary: "Weird Tales. Argosy. Amazing Stories. For fifty years, pulp magazines reigned supreme publishing the sensational, the titillating, and the strange. In their heyday they published the lowest hacks and greatest literati and were the launch platform for many legends of genre fiction. Our panelists present a history of the major magazines that published the work of Lovecraft, Howard, and so many more!",
+      summary: "Biltmore Ballroom, Graduate 17th Floor",
+      start_time: "2019-08-23T14:00:00.000Z",
+      end_time: "2019-08-23T15:15:00.000Z",
+      start_col: 22,
+      span: 4,
+      color: "#bae1ff"
+    },
+    {
+      id: 16,
+      schedule_id: 2,
+      event_name: "Songs The Sandman Sings: The Legacy and Influence of E.T.A. Hoffmann",
+      speaker: "Christa Carmen, Michael Dirda, Sean Moreland (M), Sonya Taaffe, L.C. von Hessen",
+      summary: "German Romantic and polymath E.T.A. Hoffmann (1776-1822) was an early pioneer in science fiction and fantasy, with macabre sensibilities that influenced Poe, Kafka, and Hitchcock. Perhaps best known for histor stories The Nutcracker and the Mouse King, The Sandman, and Automata, his work and ideas connected fantasy, mesmerism, dreams, and machine culture in ways sometimes overlooked today. Our panelists discuss his work and illuminate his enduring influence on weird fiction.",
+      summary: "Newport-Washington, Omni 3rd Floor",
+      start_time: "2019-08-23T15:30:00.000Z",
+      end_time: "2019-08-23T16:45:00.000Z",
+      start_col: 14,
+      span: 4,
+      color: "#baffc9"
+    },
+    {
+      id: 17,
+      schedule_id: 2,
+      event_name: "Providence in Lovecraft's Day",
+      speaker: "Sean Branney, Jim Dyer, Jason Eckhardt, Rory Raven (M), Faye Ringel",
+      summary: "How did the Providence of Lovecraft's day shape his fiction? Which locations inspired or are incorporated into his works? How vastly different is the modern Providence landscape from today? What has been lost of Lovecraft's Providence, adn what can we learn of those places that are no longer present? Is Lovecraft a \"regional\" writer? Explore these questions and more with those who are well-versed in Lovecraftian geographical history. ",
+      summary: "Capital Ballroom, Graduate 2nd Floor",
+      start_time: "2019-08-23T15:30:00.000Z",
+      end_time: "2019-08-23T16:45:00.000Z",
+      start_col: 18,
+      span: 4,
+      color: "#ffb3ba"
+    },
+    {
+      id: 18,
+      schedule_id: 2,
+      event_name: "Welcome to the Weird: A Beginners Guide to Weird Fiction",
+      speaker: "Peter Cannon, Ruthanna Emrys, Géza A. G. Reilly, Simon Strantzas (M), Molly Tanzer, Elena Tchougounova-Paulson",
+      summary: "New to the weird fiction scene? Know a lot, but want to fill in the corners and better understand how it all fits together? Where is the fuzzy boundary that separates \"weird fiction\" from horror, dark fantasy, and other genres? Join our experts as they provide a survey of weird fiction in history and today, tracing the roots, concerns, trends, and major writers in the field. ",
+      summary: "Biltmore Ballroom, Graduate 17th Floor",
+      start_time: "2019-08-23T15:30:00.000Z",
+      end_time: "2019-08-23T16:45:00.000Z",
+      start_col: 22,
+      span: 4,
+      color: "#ffb3ba"
+    }
+  ]
