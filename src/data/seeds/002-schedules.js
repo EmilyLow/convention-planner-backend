@@ -5,9 +5,11 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('schedules').insert([
-        {id: 1, table_name: 'Core'},
-        {id: 2, table_name: 'Test Table 2'},
-        {id: 3, table_name: 'Test Table 3'},
+        {id: 1, schedule_name: 'Core', personal_schedule: false},
+        {id: 2, schedule_name: 'Events', personal_schedule: false},
+        {id: 3, schedule_name: 'Test Table 3', personal_schedule: false},
+        {id: 4, personal_schedule: true},
+        {id: 5, personal_schedule: true},
       ]);
     });
 };
