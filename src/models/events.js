@@ -1,8 +1,7 @@
 const db = require("../data/db-config");
 
 
-//Unsure about findByUser and findBySchedule, especially how they'll fit into routes
-//Possibly findBySchedule should go under /schedule route, and find by user should go under /user route?
+
 module.exports = {find, findById, addEvent, updateEvent, removeEvent};
 
 
