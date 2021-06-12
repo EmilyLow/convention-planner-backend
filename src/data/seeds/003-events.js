@@ -239,6 +239,46 @@ exports.seed = function(knex) {
             start_col: 22,
             span: 4,
             color: "#ffb3ba"
+          },
+          //User Events starting here
+          {
+            id: 19,
+            schedule_id: 4,
+            event_name: "Party Under the Stars",
+            speaker: "",
+            summary: "OPEN TO THE PUBLIC (free). Kick off the convention with our big outdoor bash! NEON Retrofest partners with us to bring electronic musical acts Triangle Forest (Providence) and Straplocked (Connecticut) to the party. Plus we've got local dancing monstrosities Big Nazo, a Frank Difficult Presents music/video mash-up, screenings, a beer garden with Narragansett beers (including a reprise of their first Lovecraft beer), libations by New Harvest Coffee & Spirits, and a carnival fire pit roast by Julians and Dreadnaught Provisions to feed your cultist belly.",
+            location: "Facade Parking Lot, 35 Weybosset St. 02903",
+            start_time: "2019-08-23T00:00:00.000Z",
+            end_time: "2019-08-23T04:00:00.000Z",
+            start_col: 0,
+            span: 0,
+            color: "#ffdfba"
+          },
+          {
+            id: 20,
+            schedule_id: 4,
+            event_name: "Providence in Lovecraft's Day",
+            speaker: "Sean Branney, Jim Dyer, Jason Eckhardt, Rory Raven (M), Faye Ringel",
+            summary: "How did the Providence of Lovecraft's day shape his fiction? Which locations inspired or are incorporated into his works? How vastly different is the modern Providence landscape from today? What has been lost of Lovecraft's Providence, adn what can we learn of those places that are no longer present? Is Lovecraft a \"regional\" writer? Explore these questions and more with those who are well-versed in Lovecraftian geographical history. ",
+            summary: "Capital Ballroom, Graduate 2nd Floor",
+            start_time: "2019-08-23T15:30:00.000Z",
+            end_time: "2019-08-23T16:45:00.000Z",
+            start_col: 0,
+            span: 0,
+            color: "#ffb3ba"
+          },
+          {
+            id: 21,
+            schedule_id: 5,
+            event_name: "Providence in Lovecraft's Day",
+            speaker: "Sean Branney, Jim Dyer, Jason Eckhardt, Rory Raven (M), Faye Ringel",
+            summary: "How did the Providence of Lovecraft's day shape his fiction? Which locations inspired or are incorporated into his works? How vastly different is the modern Providence landscape from today? What has been lost of Lovecraft's Providence, adn what can we learn of those places that are no longer present? Is Lovecraft a \"regional\" writer? Explore these questions and more with those who are well-versed in Lovecraftian geographical history. ",
+            summary: "Capital Ballroom, Graduate 2nd Floor",
+            start_time: "2019-08-23T15:30:00.000Z",
+            end_time: "2019-08-23T16:45:00.000Z",
+            start_col: 0,
+            span: 0,
+            color: "#ffb3ba"
           }
         ]
       
