@@ -1,7 +1,7 @@
 // Colors
 /*
 ["#405191", Dark blue
-"#724312", Reddish Brown
+"#724312", Reddish brown
 "#39627e",
 "#3b0032",
 "#002f44"]
