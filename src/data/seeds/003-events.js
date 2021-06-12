@@ -1,4 +1,12 @@
+// Colors
+/*
+["#405191", Dark blue
+"#724312", Reddish Brown
+"#39627e",
+"#3b0032",
+"#002f44"]
 
+*/
 exports.seed = function(knex) {
   // Deletes ALL existing entries
   return knex('events').del()
@@ -17,7 +25,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-22T20:00:00.000Z",
             start_col: 2,
             span: 4,
-            color: "#bae1ff"
+            color: "#405191"
           },
           {
             id: 2,
@@ -30,7 +38,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-22T21:30:00.000Z",
             start_col: 6,
             span: 4,
-            color: "#bae1ff"
+            color: "#405191"
           },
           {
             id: 3,
@@ -43,7 +51,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-22T21:30:00.000Z",
             start_col: 10,
             span: 4,
-            color: "#bae1ff"
+            color: "#405191"
           },
           {
             id: 4,
@@ -56,7 +64,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-22T23:00:00.000Z",
             start_col: 2,
             span: 12,
-            color: "#ffb3ba"
+            color: "#405191"
           },
           {
             id: 5,
@@ -69,7 +77,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-23T04:00:00.000Z",
             start_col: 2,
             span: 6,
-            color: "#ffdfba"
+            color: "#405191"
           },
           {
             id: 6,
@@ -82,7 +90,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-23T04:00:00.000Z",
             start_col: 8,
             span: 6,
-            color: "#baffc9"
+            color: "#405191"
           },
           {
             id: 7,
@@ -95,7 +103,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-23T23:00:00.000Z",
             start_col: 14,
             span: 6,
-            color: "#ffb3ba"
+            color: "#405191"
           },
           {
             id: 8,
@@ -108,7 +116,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-23T18:30:00.000Z",
             start_col: 20,
             span: 6,
-            color: "#baffc9"
+            color: "#405191"
           },
           {
             id: 9,
@@ -121,7 +129,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-23T20:00:00.000Z",
             start_col: 20,
             span: 6,
-            color: "#bae1ff"
+            color: "#405191"
           },
           {
             id: 10,
@@ -134,7 +142,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-24T02:00:00.000Z",
             start_col: 14,
             span: 6,
-            color: "#ffdfba"
+            color: "#405191"
           },
           {
             id: 11,
@@ -147,7 +155,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-24T03:00:00.000Z",
             start_col: 20,
             span: 6,
-            color: "#bae1ff"
+            color: "#405191"
           },
           {
             id: 12,
@@ -160,7 +168,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-24T04:00:00.000Z",
             start_col: 14,
             span: 6,
-            color: "#ffdfba"
+            color: "#405191"
           },
           {
             id: 13,
@@ -173,7 +181,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-23T15:15:00.000Z",
             start_col: 14,
             span: 4,
-            color: "#ffffba"
+            color: "#724312"
           },
           {
             id: 14,
@@ -186,7 +194,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-23T15:15:00.000Z",
             start_col: 18,
             span: 4,
-            color: "#ffffba"
+            color: "#724312"
           },
           {
             id: 15,
@@ -199,7 +207,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-23T15:15:00.000Z",
             start_col: 22,
             span: 4,
-            color: "#bae1ff"
+            color: "#724312"
           },
           {
             id: 16,
@@ -212,7 +220,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-23T16:45:00.000Z",
             start_col: 14,
             span: 4,
-            color: "#baffc9"
+            color: "#724312"
           },
           {
             id: 17,
@@ -225,7 +233,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-23T16:45:00.000Z",
             start_col: 18,
             span: 4,
-            color: "#ffb3ba"
+            color: "#724312"
           },
           {
             id: 18,
@@ -238,7 +246,7 @@ exports.seed = function(knex) {
             end_time: "2019-08-23T16:45:00.000Z",
             start_col: 22,
             span: 4,
-            color: "#ffb3ba"
+            color: "#724312"
           },
           //User Events starting here
           {
