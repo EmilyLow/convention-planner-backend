@@ -7,7 +7,7 @@ let sched3Data =
 [
     
       {
-        id: 31,
+        id: 96,
         schedule_id: 3,
         event_name: "Call of Cthulhu MD: The Beast in the Bear's Lair",
         speaker: "Dan Alban",
@@ -20,7 +20,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: 32,
+        id: 97,
         schedule_id: 3,
         event_name: "Call of Cthulhu: The Shooting Party",
         speaker: "Dan Combs",
@@ -33,7 +33,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: 33,
+        id: 98,
         schedule_id: 3,
         event_name: "CoC 7th Ed. Pulp MD: Final Flight of the Metal Gods",
         speaker: "Paul Zane",
@@ -46,7 +46,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: 34,
+        id: 99,
         schedule_id: 3,
         event_name: "Delta Green: BLACKSAT",
         speaker: "Timothy Deschene",
@@ -59,7 +59,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: 35,
+        id: 100,
         schedule_id: 3,
         event_name: "Lovecraftesque",
         speaker: "Matt Hawkes",
@@ -72,7 +72,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: 36,
+        id: 101,
         schedule_id: 3,
         event_name: "Tremulus",
         speaker: "B. Auxier",
@@ -85,7 +85,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: 37,
+        id: 102,
         schedule_id: 3,
         event_name: "Call of Cthulhu: Camp Sunny",
         speaker: "C. A. Cromer",
@@ -98,7 +98,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: 39,
+        id: 103,
         schedule_id: 3,
         event_name: "CoC 7th Ed.: The Darkwatch",
         speaker: "Scott Legault",
@@ -111,7 +111,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: 40,
+        id: 104,
         schedule_id: 3,
         event_name: "CoC: The Shadow Over Providence",
         speaker: "Jon Hook",
@@ -124,7 +124,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 105,
         schedule_id: 3,
         event_name: "CoC 7th Ed.: The Idol of Truth",
         speaker: "David DeRocha",
@@ -137,7 +137,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 106,
         schedule_id: 3,
         event_name: "CoC: Hope's Roost",
         speaker: "Eric Roberts",
@@ -150,7 +150,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 107,
         schedule_id: 3,
         event_name: "Tremulus",
         speaker: "B. Auxier",
@@ -163,7 +163,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 108,
         schedule_id: 3,
         event_name: "Call of Cthulhu: After Dark",
         speaker: "L. Hardy",
@@ -176,7 +176,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 109,
         schedule_id: 3,
         event_name: "CoC 7th Ed: Giants In The Nation's Attic?",
         speaker: "Brian Myhre",
@@ -189,7 +189,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 110,
         schedule_id: 3,
         event_name: "Delta Green: STOP REPO ",
         speaker: "K. Ham",
@@ -202,7 +202,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 111,
         schedule_id: 3,
         event_name: "CoC DEMO: Crimson Carnivale",
         speaker: "T. Mannino",
@@ -215,7 +215,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 112,
         schedule_id: 3,
         event_name: "CoC Delta Green: Jump Into Darkness",
         speaker: "Frank Frey",
@@ -228,7 +228,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 113,
         schedule_id: 3,
         event_name: "CoC DEMO: Crimson Carnivale",
         speaker: "T. Mannino",
@@ -241,7 +241,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 114,
         schedule_id: 3,
         event_name: "Tremulus",
         speaker: "B. Auxier",
@@ -254,7 +254,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 115,
         schedule_id: 3,
         event_name: "Dread 1st Edition",
         speaker: "Molly Taylor",
@@ -267,7 +267,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 116,
         schedule_id: 3,
         event_name: "CoC: The Shadow Over Providence",
         speaker: "Jon Hook",
@@ -280,7 +280,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 117,
         schedule_id: 3,
         event_name: "CoC 7th Ed: Where Chaos Reigns",
         speaker: "Matt Ryan",
@@ -293,7 +293,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 118,
         schedule_id: 3,
         event_name: "CoC: Beast in the Bear's Lair",
         speaker: "Dan Alban",
@@ -306,7 +306,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 119,
         schedule_id: 3,
         event_name: "CoC: The Kensington Curse",
         speaker: "Dorsey Weber",
@@ -319,7 +319,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 120,
         schedule_id: 3,
         event_name: 'CoC 7th Ed: Dateline: Lovecraft "Smoke Green"',
         speaker: "Dean Engelhardt",
@@ -332,7 +332,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 121,
         schedule_id: 3,
         event_name: "CoC: Dark Harvest",
         speaker: "Eric Roberts",
@@ -345,7 +345,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 122,
         schedule_id: 3,
         event_name: "Dreamlands: On the Wings of Dream",
         speaker: "J. B. Thompson",
@@ -359,7 +359,7 @@ let sched3Data =
       },
       //Saturday starts here
       {
-        id: ,
+        id: 123,
         schedule_id: 3,
         event_name: "CoC: The Door Beyond",
         speaker: "Thom Raley",
@@ -372,7 +372,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 124,
         schedule_id: 3,
         event_name: "CoC: Uncle Silas",
         speaker: "Chris Janiak",
@@ -385,7 +385,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 125,
         schedule_id: 3,
         event_name: "CoC: Tokens of Tragedy",
         speaker: "Eric Roberts",
@@ -398,7 +398,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 126,
         schedule_id: 3,
         event_name: "Dungeons & Dragons Horror Homebrew",
         speaker: "Connor Lin",
@@ -411,7 +411,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 127,
         schedule_id: 3,
         event_name: "CoC: Station S",
         speaker: "Rachael B. Randolph",
@@ -424,7 +424,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 128,
         schedule_id: 3,
         event_name: "Astonishing Swordsmen & Sorcerers of Hypeborea",
         speaker: "Timothy Deschene",
@@ -437,7 +437,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 129,
         schedule_id: 3,
         event_name: "Trail of Cthulhu A Cthulhu City: The Big Sleepless",
         speaker: "N. Lloyd",
@@ -450,7 +450,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 130,
         schedule_id: 3,
         event_name: "CoC: The Black Orchard",
         speaker: "M. Mason",
@@ -463,7 +463,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 131,
         schedule_id: 3,
         event_name: "Lovecraftesque",
         speaker: "Matt Hawkes",
@@ -476,7 +476,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 132,
         schedule_id: 3,
         event_name: "D&D 2nd Ed. Ravenloft ",
         speaker: "David DaRocha",
@@ -489,7 +489,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 133,
         schedule_id: 3,
         event_name: "CoC 7th Ed. Dark Ages of Cthulhu: The Search for Brian Boru",
         speaker: "Dan Combs",
@@ -502,7 +502,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 134,
         schedule_id: 3,
         event_name: "Extra Life Charity Game",
         speaker: "Edwin Nagy, Sean Murphy",
@@ -515,7 +515,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 135,
         schedule_id: 3,
         event_name: "CoC: Down at the Boardwalk",
         speaker: "Dorsey Weber",
@@ -528,7 +528,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 136,
         schedule_id: 3,
         event_name: "CoC: Bleak Prospect",
         speaker: "N. Lloyd",
@@ -541,7 +541,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 137,
         schedule_id: 3,
         event_name: "CoC: We Are All Savages",
         speaker: "William Adcock",
@@ -554,7 +554,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 138,
         schedule_id: 3,
         event_name: "CoC: BLOOD DANCE",
         speaker: "S. Petersen",
@@ -567,7 +567,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 139,
         schedule_id: 3,
         event_name: "CoC 7th Ed: Pulvis Et Umbra Sumus",
         speaker: "Jeff Marshall",
@@ -580,7 +580,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 140,
         schedule_id: 3,
         event_name: "CoC 7th Ed: Convicts & Cthulhu Intro",
         speaker: "Dean Engelhardt",
@@ -593,7 +593,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 141,
         schedule_id: 3,
         event_name: "Strange Parlor Productions Presents: The King in Yellow",
         speaker: "Aaron Newman",
@@ -607,7 +607,7 @@ let sched3Data =
       },
      //Sunday
      {
-        id: ,
+        id: 142,
         schedule_id: 3,
         event_name: "Cthulhu Invictus: A Mortal Harvest",
         speaker: "Oscar Rios",
@@ -620,7 +620,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 143,
         schedule_id: 3,
         event_name: "Dreamlands: The Palace of Memory",
         speaker: "J. B. Thompson",
@@ -633,7 +633,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 144,
         schedule_id: 3,
         event_name: "CoC: Ides of Winter",
         speaker: "T. Mannino",
@@ -646,7 +646,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 145,
         schedule_id: 3,
         event_name: "CoC 7th ed: Group Therapy",
         speaker: "Jeff Marshall",
@@ -659,7 +659,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 146,
         schedule_id: 3,
         event_name: "CoC: Edge of Darkness",
         speaker: "Chris Janiak",
@@ -672,7 +672,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 147,
         schedule_id: 3,
         event_name: "Delta Green: Observer Effect",
         speaker: "K. Ham",
@@ -685,7 +685,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 148,
         schedule_id: 3,
         event_name: "Coggs, Cakes & Cthulhu",
         speaker: "L. Hardy",
@@ -698,7 +698,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 149,
         schedule_id: 3,
         event_name: "CoC: In the Deeps - Knowledge",
         speaker: "Paul Zane",
@@ -711,7 +711,7 @@ let sched3Data =
         color: sched3Color
       },
       {
-        id: ,
+        id: 150,
         schedule_id: 3,
         event_name: "Pulp Cthulhu: The Outlaws of Desolation Peak",
         speaker: "Dan Combs",
@@ -723,6 +723,7 @@ let sched3Data =
         span: 0,
         color: sched3Color
       },
+
    
       //Copy one
     //   {

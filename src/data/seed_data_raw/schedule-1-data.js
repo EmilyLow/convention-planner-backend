@@ -1,4 +1,10 @@
 //Core
+
+
+//Note: Not adding Ars Necronomica Art exhibition. Can do that later if wanted
+
+let sched1Color = "#405191";
+
 [
     {
         id: 1,
@@ -159,41 +165,173 @@
       {
         id: 13,
         schedule_id: 1,
-        event_name: "",
+        event_name: "Lovecraft Bus Tour 4",
         speaker: "",
-        summary: "",
-        location: "",
-        start_time: "2019-08-24T02:00:00.000Z",
-        end_time: "2019-08-24T04:00:00.000Z",
+        summary: "Tickets $15",
+        location: "Departs from the Providence Visitor Information Center, 1 Sabin St.",
+        start_time: new Date(2019, 7, 23, 15, 0).toISOString(),
+        end_time: new Date(2019, 7, 23, 16, 30).toISOString(),
         start_col: 0,
         span: 0,
-        color: "#405191"
+        color: sched1Color
       },
       {
         id: 14,
         schedule_id: 1,
-        event_name: "",
+        event_name: "Lovecraft Walking Tour",
         speaker: "",
-        summary: "",
-        location: "",
-        start_time: "2019-08-24T02:00:00.000Z",
-        end_time: "2019-08-24T04:00:00.000Z",
+        summary: "Tickets $10",
+        location: "Departs from the Graduate Hotel, 1 Sabin St.",
+        start_time: new Date(2019, 7, 23, 15, 0).toISOString(),
+        end_time: new Date(2019, 7, 23, 18, 0).toISOString(),
         start_col: 0,
         span: 0,
-        color: "#405191"
+        color: sched1Color
       },
+
       {
-        id: 0,
+        id: 15,
         schedule_id: 1,
-        event_name: "",
+        event_name: "Guests of Honor",
+        speaker: "Peter Cannon, Kenneth Hite, Victor LaVelle, Sonya Taaffe, Molly Tanzer, Dempow Torishima, Paul Tremblay, s.j. bagley (M)",
+        summary: "Please join us asa we introduce and celebrate the Guests of Honor for NecronomiCon Providence 2019, follow by a discussion with the audience.",
+        location: "Grand Ballroom, Biltmore 17th Floor",
+        start_time: new Date(2019, 7, 23, 16, 30).toISOString(),
+        end_time: new Date(2019, 7, 23, 17, 45).toISOString(),
+        start_col: 0,
+        span: 0,
+        color: sched1Color
+      },
+
+      {
+        id: 16,
+        schedule_id: 1,
+        event_name: "Special Event: A Remembrance of Sam Gafford, Wilum Pugmire, and Stanley Sargent",
+        speaker: "",
+        summary: "Please join Jeffrey Thomas, Marc Michaud, Derrick Hussey, Farah Rose Smith, Scott Connors, Peter Cannon, Sean Branney, Andrew Leman, and other friends in remembering the wonderful contributions of dear members of our community, now lost to us.",
+        location: "Narragansett Bayview, Graduate 17th Floor",
+        start_time: new Date(2019, 7, 23, 18, 0).toISOString(),
+        end_time: new Date(2019, 7, 23, 19, 15).toISOString(),
+        start_col: 0,
+        span: 0,
+        color: sched1Color
+      },
+
+      //Saturday
+      {
+        id: 17,
+        schedule_id: 1,
+        event_name: "Lovecraft Walking Tour",
+        speaker: "",
+        summary: "Tickets $10",
+        location: "Departs from the Graduate Hotel",
+        start_time: new Date(2019, 7, 24, 9, 0).toISOString(),
+        end_time: new Date(2019, 7, 24, 12, 0).toISOString(),
+        start_col: 0,
+        span: 0,
+        color: "#sched1Color"
+      },
+
+      {
+        id: 18,
+        schedule_id: 1,
+        event_name: "Lovecraft Walking Tour",
+        speaker: "",
+        summary: "Tickets $10",
+        location: "Departs from the Graduate Hotel",
+        start_time: new Date(2019, 7, 24, 15, 0).toISOString(),
+        end_time: new Date(2019, 7, 24, 18, 0).toISOString(),
+        start_col: 0,
+        span: 0,
+        color: "#sched1Color"
+      },
+
+      {
+        id: 19,
+        schedule_id: 1,
+        event_name: "Lovecraftian/Weird Trivia Hour and 'Drunk Lovecraftian History'",
         speaker: "",
         summary: "",
         location: "",
-        start_time: "2019-08-24T02:00:00.000Z",
-        end_time: "2019-08-24T04:00:00.000Z",
+        start_time: new Date(2019, 7, 24, 21, 0).toISOString(),
+        end_time: new Date(2019, 7, 24, 22, 0).toISOString(),
         start_col: 0,
         span: 0,
-        color: "#405191"
+        color: sched1Color
       },
+
+      {
+        id: 20,
+        schedule_id: 1,
+        event_name: "Innsmouth Sea Shanties!",
+        speaker: "",
+        summary: "",
+        location: "",
+        start_time: new Date(2019, 7, 24, 22, 0).toISOString(),
+        end_time: new Date(2019, 7, 24, 23, 0).toISOString(),
+        start_col: 0,
+        span: 0,
+        color: sched1Color
+      },
+
+      //Sunday
+      {
+        id: 21,
+        schedule_id: 1,
+        event_name: "Cthulhu Prayer Breakfast",
+        speaker: "",
+        summary: "",
+        location: "",
+        start_time: new Date(2019, 7, 25, 8, 0).toISOString(),
+        end_time: new Date(2019, 7, 25, 9, 30).toISOString(),
+        start_col: 0,
+        span: 0,
+        color: sched1Color
+      },
+
+      {
+        id: 22,
+        schedule_id: 1,
+        event_name: "Grand Emporium of Weird",
+        speaker: "",
+        summary: "",
+        location: "",
+        start_time: new Date(2019, 7, 25, 11, 0).toISOString(),
+        end_time: new Date(2019, 7, 25, 16, 0).toISOString(),
+        start_col: 0,
+        span: 0,
+        color: sched1Color
+      },
+
+      {
+        id: 23,
+        schedule_id: 1,
+        event_name: "NecronomiCon Providence Wrap-Up",
+        speaker: "",
+        summary: "",
+        location: "",
+        start_time: new Date(2019, 7, 25, 16, 30).toISOString(),
+        end_time: new Date(2019, 7, 25, 17, 45).toISOString(),
+        start_col: 0,
+        span: 0,
+        color: sched1Color
+      },
+
+      
+
     
+      //Template
+      // {
+      //   id: ,
+      //   schedule_id: 1,
+      //   event_name: "",
+      //   speaker: "",
+      //   summary: "",
+      //   location: "",
+      //   start_time: new Date(2019, 7, 25, 8, 0).toISOString(),
+      //   end_time: new Date(2019, 7, 25, 12, 0).toISOString(),
+      //   start_col: 0,
+      //   span: 0,
+      //   color: sched1Color
+      // },
 ]
