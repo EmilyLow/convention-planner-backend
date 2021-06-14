@@ -1,6 +1,9 @@
-//Games
-let sched3Color = "#3b0032"
 
+
+//Games
+let sched3Color = "#3b0032";
+
+let sched3Data = 
 [
     
       {
@@ -56,7 +59,7 @@ let sched3Color = "#3b0032"
         color: sched3Color
       },
       {
-        id: ,
+        id: 35,
         schedule_id: 3,
         event_name: "Lovecraftesque",
         speaker: "Matt Hawkes",
@@ -84,4 +87,5 @@ let sched3Color = "#3b0032"
      
    
     
-]
+];
+module.exports = {sched3Data};
