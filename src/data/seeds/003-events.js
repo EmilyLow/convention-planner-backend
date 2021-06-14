@@ -2,11 +2,15 @@
 /*
 ["#405191", Dark blue
 "#724312", Reddish brown
-"#39627e",
-"#3b0032",
-"#002f44"]
+"#39627e", More green dark blue
+"#3b0032", Purple Red, games
+"#002f44"], Darkest blue
 
 */
+
+//TODO: Import seed data instead of copy/pasting here
+//let allData = [...data1, ...data2, ...data3] 
+
 exports.seed = function(knex) {
   // Deletes ALL existing entries
   return knex('events').del()
