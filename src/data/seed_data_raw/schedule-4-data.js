@@ -1,10 +1,12 @@
 //Shows
 
 //TODO: Pick actual color
-let sched4Color = "#FFFFFF";
+let sched4Color = "#39627e";
+
+let sched4Data = 
 [
       {
-        id: ,
+        id: 151,
         schedule_id: 4,
         event_name: "Feature Film: The Emperor of Dreams",
         speaker: "",
@@ -17,7 +19,7 @@ let sched4Color = "#FFFFFF";
         color: sched4Color
       },
       {
-        id: ,
+        id: 152,
         schedule_id: 4,
         event_name: "Theatrical Solo Act Double Feature: A Performance of Two M.R. James Tales",
         speaker: "",
@@ -31,7 +33,7 @@ let sched4Color = "#FFFFFF";
       },
       //Friday
       {
-        id: ,
+        id: 153,
         schedule_id: 4,
         event_name: "Feature Film: Sauna",
         speaker: "",
@@ -44,7 +46,7 @@ let sched4Color = "#FFFFFF";
         color: sched4Color
       },
       {
-        id: ,
+        id: 154,
         schedule_id: 4,
         event_name: "Feature Film: Aniara",
         speaker: "",
@@ -58,7 +60,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 155,
         schedule_id: 4,
         event_name: "Short Films: HPLFF1",
         speaker: "",
@@ -69,10 +71,10 @@ let sched4Color = "#FFFFFF";
         start_col: 0,
         span: 0,
         color: sched4Color
-      }
+      },
 
       {
-        id: ,
+        id: 156,
         schedule_id: 4,
         event_name: "HPLHS'S Dark Adventure Radio Theatre 'The Lurking Fear",
         speaker: "",
@@ -86,7 +88,7 @@ let sched4Color = "#FFFFFF";
       },
       
       {
-        id: ,
+        id: 157,
         schedule_id: 4,
         event_name: "Feature Film: Starfish",
         speaker: "",
@@ -100,7 +102,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 158,
         schedule_id: 4,
         event_name: "Theatrical Dual Solo Act Double-Feature: HPL'S 'The Hound' and M.R. James 'A Warning to the Curious'",
         speaker: "",
@@ -113,7 +115,7 @@ let sched4Color = "#FFFFFF";
         color: sched4Color
       },
       {
-        id: ,
+        id: 159,
         schedule_id: 4,
         event_name: "Secret Film Screening",
         speaker: "",
@@ -129,7 +131,7 @@ let sched4Color = "#FFFFFF";
       //Saturday 
 
       {
-        id: ,
+        id: 160,
         schedule_id: 4,
         event_name: "Feature Film: Starfish",
         speaker: "",
@@ -143,7 +145,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 161,
         schedule_id: 4,
         event_name: "H.P. Lovecraft Literary Podcast - Live!",
         speaker: "",
@@ -157,7 +159,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 162,
         schedule_id: 4,
         event_name: "The Outer Dark Podcast - Live!",
         speaker: "",
@@ -171,7 +173,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 163,
         schedule_id: 4,
         event_name: "Short Films: HPLFF3",
         speaker: "",
@@ -185,7 +187,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 164,
         schedule_id: 4,
         event_name: "Feature Film: Emperor of Dreams",
         speaker: "",
@@ -199,7 +201,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 165,
         schedule_id: 4,
         event_name: "HPLHS's Dark Adventure Radio Theater 'MAD SCIENCE'",
         speaker: "",
@@ -213,7 +215,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 166,
         schedule_id: 4,
         event_name: "Theatrical Dual Solo Acts Double-Feature: M.R. James VS. Lovecraft's 'The Hound'",
         speaker: "",
@@ -227,7 +229,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 167,
         schedule_id: 4,
         event_name: "Feature Film: Aniara",
         speaker: "",
@@ -241,7 +243,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 168,
         schedule_id: 4,
         event_name: "Short Films at the Black Box: HPLFF1",
         speaker: "",
@@ -256,7 +258,7 @@ let sched4Color = "#FFFFFF";
 
       //Sunday
       {
-        id: ,
+        id: 169,
         schedule_id: 4,
         event_name: "Short Films at the Black Box: HPLFF1",
         speaker: "",
@@ -270,7 +272,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 170,
         schedule_id: 4,
         event_name: "Feature Film: Hellstrom Chronicle",
         speaker: "",
@@ -284,7 +286,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 171,
         schedule_id: 4,
         event_name: "Short Films at the Black Box: HPLFF2",
         speaker: "",
@@ -298,7 +300,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 172,
         schedule_id: 4,
         event_name: "Feature Film: Phase IV",
         speaker: "",
@@ -312,7 +314,7 @@ let sched4Color = "#FFFFFF";
       },
 
       {
-        id: ,
+        id: 173,
         schedule_id: 4,
         event_name: "The Dunwich Horror Picture Show!",
         speaker: "",
@@ -340,4 +342,6 @@ let sched4Color = "#FFFFFF";
       //   span: 0,
       //   color: sched4Color
       // },
-]
+];
+
+module.exports = {sched4Data};

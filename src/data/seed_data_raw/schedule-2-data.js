@@ -1,6 +1,7 @@
 //Talks
 let sched2Color = "#724312";
 
+let sched2Data = 
 [
     { 
     id: 24,
@@ -199,7 +200,7 @@ let sched2Color = "#724312";
     summary: "Lovecraft & The Other. Session Chair: Nathaniel R. Wallace; Paul Neimann, 'The Other Others: Mapping Lovecraft's Loathing'; Robert Ames, 'Zahhak Next to Cthulhu: Philosophizing with Monsters in Persian Mythology and American Horror'",
     location: "Bristol-Kent, Omni 3rd Floor",
     start_time: new Date(2019, 7, 23, 15, 0).toISOString(),
-    end_time: new Date(2019, 7, 23, 16, 16).toISOString(),
+    end_time: new Date(2019, 7, 23, 16, 15).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -212,7 +213,7 @@ let sched2Color = "#724312";
     summary: "In his seminal work, 'The Idea of the Holy,' German philosopher and theologian Rudolf Otto codified the notion of the mysterium tremendum as an apprehension of the divine that 'can sink to an almost grisly horror and shuddering,' but may also be 'developed into something beautiful and pure and glorious.' In this discussion we will examine how the holy or divine expressed in art and mystical traditions is also often terrifying, and how magic can be mistaken as demonic rather than daemonic.",
     location: "Washington-Newport Room, Omni 3rd Floor",
     start_time: new Date(2019, 7, 23, 15, 0).toISOString(),
-    end_time: new Date(2019, 7, 23, 16, 16).toISOString(),
+    end_time: new Date(2019, 7, 23, 16, 15).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -730,8 +731,8 @@ let sched2Color = "#724312";
       speaker: "",
       summary: "",
       location: "",
-      start_time: new Date(2019, 7, 24, 9, 0).toISOString(),
-      end_time: new Date(2019, 7, 24, 10, 15).toISOString(),
+      start_time: new Date(2019, 7, 25, 9, 0).toISOString(),
+      end_time: new Date(2019, 7, 25, 10, 15).toISOString(),
       start_col: 0,
       span: 0,
       color: sched2Color
@@ -744,8 +745,8 @@ let sched2Color = "#724312";
       speaker: "",
       summary: "",
       location: "",
-      start_time: new Date(2019, 7, 24, 9, 0).toISOString(),
-      end_time: new Date(2019, 7, 24, 10, 15).toISOString(),
+      start_time: new Date(2019, 7, 25, 9, 0).toISOString(),
+      end_time: new Date(2019, 7, 25, 10, 15).toISOString(),
       start_col: 0,
       span: 0,
       color: sched2Color
@@ -758,25 +759,11 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 10, 30).toISOString(),
-    end_time: new Date(2019, 7, 24, 11, 45).toISOString(),
+    start_time: new Date(2019, 7, 25, 10, 30).toISOString(),
+    end_time: new Date(2019, 7, 25, 11, 45).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
-  },
-
-  {
-  id: 79,
-  schedule_id: 2,
-  event_name: "Creeping Through the Four-Colored Forest: Contemporary Weird Comics",
-  speaker: "",
-  summary: "",
-  location: "",
-  start_time: new Date(2019, 7, 24, 10, 30).toISOString(),
-  end_time: new Date(2019, 7, 24, 11, 45).toISOString(),
-  start_col: 0,
-  span: 0,
-  color: sched2Color
   },
 
   {
@@ -786,8 +773,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 10, 30).toISOString(),
-    end_time: new Date(2019, 7, 24, 11, 45).toISOString(),
+    start_time: new Date(2019, 7, 25, 10, 30).toISOString(),
+    end_time: new Date(2019, 7, 25, 11, 45).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -800,8 +787,8 @@ let sched2Color = "#724312";
       speaker: "",
       summary: "",
       location: "",
-      start_time: new Date(2019, 7, 24, 10, 30).toISOString(),
-      end_time: new Date(2019, 7, 24, 11, 45).toISOString(),
+      start_time: new Date(2019, 7, 25, 10, 30).toISOString(),
+      end_time: new Date(2019, 7, 25, 11, 45).toISOString(),
       start_col: 0,
       span: 0,
       color: sched2Color
@@ -814,8 +801,8 @@ let sched2Color = "#724312";
         speaker: "",
         summary: "",
         location: "",
-        start_time: new Date(2019, 7, 24, 10, 30).toISOString(),
-        end_time: new Date(2019, 7, 24, 11, 45).toISOString(),
+        start_time: new Date(2019, 7, 25, 10, 30).toISOString(),
+        end_time: new Date(2019, 7, 25, 11, 45).toISOString(),
         start_col: 0,
         span: 0,
         color: sched2Color
@@ -828,8 +815,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 10, 30).toISOString(),
-    end_time: new Date(2019, 7, 24, 11, 45).toISOString(),
+    start_time: new Date(2019, 7, 25, 10, 30).toISOString(),
+    end_time: new Date(2019, 7, 25, 11, 45).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -842,8 +829,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 10, 30).toISOString(),
-    end_time: new Date(2019, 7, 24, 11, 45).toISOString(),
+    start_time: new Date(2019, 7, 25, 10, 30).toISOString(),
+    end_time: new Date(2019, 7, 25, 11, 45).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -856,8 +843,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 13, 30).toISOString(),
-    end_time: new Date(2019, 7, 24, 14, 45).toISOString(),
+    start_time: new Date(2019, 7, 25, 13, 30).toISOString(),
+    end_time: new Date(2019, 7, 25, 14, 45).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -870,8 +857,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 13, 30).toISOString(),
-    end_time: new Date(2019, 7, 24, 14, 45).toISOString(),
+    start_time: new Date(2019, 7, 25, 13, 30).toISOString(),
+    end_time: new Date(2019, 7, 25, 14, 45).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -884,8 +871,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 13, 30).toISOString(),
-    end_time: new Date(2019, 7, 24, 14, 45).toISOString(),
+    start_time: new Date(2019, 7, 25, 13, 30).toISOString(),
+    end_time: new Date(2019, 7, 25, 14, 45).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -898,8 +885,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 13, 30).toISOString(),
-    end_time: new Date(2019, 7, 24, 14, 45).toISOString(),
+    start_time: new Date(2019, 7, 25, 13, 30).toISOString(),
+    end_time: new Date(2019, 7, 25, 14, 45).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -912,8 +899,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 13, 30).toISOString(),
-    end_time: new Date(2019, 7, 24, 14, 45).toISOString(),
+    start_time: new Date(2019, 7, 25, 13, 30).toISOString(),
+    end_time: new Date(2019, 7, 25, 14, 45).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -926,8 +913,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 15, 0).toISOString(),
-    end_time: new Date(2019, 7, 24, 16, 15).toISOString(),
+    start_time: new Date(2019, 7, 25, 15, 0).toISOString(),
+    end_time: new Date(2019, 7, 25, 16, 15).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -940,8 +927,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 15, 0).toISOString(),
-    end_time: new Date(2019, 7, 24, 16, 15).toISOString(),
+    start_time: new Date(2019, 7, 25, 15, 0).toISOString(),
+    end_time: new Date(2019, 7, 25, 16, 15).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -954,8 +941,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 15, 0).toISOString(),
-    end_time: new Date(2019, 7, 24, 16, 15).toISOString(),
+    start_time: new Date(2019, 7, 25, 15, 0).toISOString(),
+    end_time: new Date(2019, 7, 25, 16, 15).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -968,8 +955,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 15, 0).toISOString(),
-    end_time: new Date(2019, 7, 24, 16, 15).toISOString(),
+    start_time: new Date(2019, 7, 25, 15, 0).toISOString(),
+    end_time: new Date(2019, 7, 25, 16, 15).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -982,8 +969,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 15, 0).toISOString(),
-    end_time: new Date(2019, 7, 24, 16, 15).toISOString(),
+    start_time: new Date(2019, 7, 25, 15, 0).toISOString(),
+    end_time: new Date(2019, 7, 25, 16, 15).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -996,8 +983,8 @@ let sched2Color = "#724312";
     speaker: "",
     summary: "",
     location: "",
-    start_time: new Date(2019, 7, 24, 15, 0).toISOString(),
-    end_time: new Date(2019, 7, 24, 16, 15).toISOString(),
+    start_time: new Date(2019, 7, 25, 15, 0).toISOString(),
+    end_time: new Date(2019, 7, 25, 16, 15).toISOString(),
     start_col: 0,
     span: 0,
     color: sched2Color
@@ -1018,4 +1005,6 @@ let sched2Color = "#724312";
     //   span: 0,
     //   color: sched2Color
     // },
-]
+];
+
+module.exports = {sched2Data};

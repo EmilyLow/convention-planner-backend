@@ -5,6 +5,7 @@
 
 let sched1Color = "#405191";
 
+let sched1Data = 
 [
     {
         id: 1,
@@ -229,7 +230,7 @@ let sched1Color = "#405191";
         end_time: new Date(2019, 7, 24, 12, 0).toISOString(),
         start_col: 0,
         span: 0,
-        color: "#sched1Color"
+        color: sched1Color
       },
 
       {
@@ -243,7 +244,7 @@ let sched1Color = "#405191";
         end_time: new Date(2019, 7, 24, 18, 0).toISOString(),
         start_col: 0,
         span: 0,
-        color: "#sched1Color"
+        color: sched1Color
       },
 
       {
@@ -317,6 +318,20 @@ let sched1Color = "#405191";
         color: sched1Color
       },
 
+      {
+        id: 174,
+        schedule_id: 1,
+        event_name: "Grand Emporium of Weird",
+        speaker: "",
+        summary: "",
+        location: "",
+        start_time: new Date(2019, 7, 24, 11, 0).toISOString(),
+        end_time: new Date(2019, 7, 24, 16, 0).toISOString(),
+        start_col: 0,
+        span: 0,
+        color: sched1Color
+      },
+
       
 
     
@@ -334,4 +349,6 @@ let sched1Color = "#405191";
       //   span: 0,
       //   color: sched1Color
       // },
-]
+];
+
+module.exports = {sched1Data};
