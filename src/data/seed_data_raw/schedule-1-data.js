@@ -16,8 +16,8 @@ let sched1Data =
         location: "Departs from the Providence Visitor Information Center, 1 Sabin St.",
         start_time: "2019-08-22T18:30:00.000Z",
         end_time: "2019-08-22T20:00:00.000Z",
-        start_col: 2,
-        span: 4,
+        start_col: 0,
+        span: 0,
         color: "#405191"
       },
       {
@@ -29,8 +29,8 @@ let sched1Data =
         location: "Departs from the Providence Visitor Information Center, 1 Sabin St.",
         start_time: "2019-08-22T20:00:00.000Z",
         end_time: "2019-08-22T21:30:00.000Z",
-        start_col: 6,
-        span: 4,
+        start_col: 0,
+        span: 0,
         color: "#405191"
       },
       {
@@ -42,8 +42,8 @@ let sched1Data =
         location: "Departs from the Graduate Hotel",
         start_time: "2019-08-22T18:30:00.000Z",
         end_time: "2019-08-22T21:30:00.000Z",
-        start_col: 10,
-        span: 4,
+        start_col: 0,
+        span: 0,
         color: "#405191"
       },
       {
@@ -55,8 +55,8 @@ let sched1Data =
         location: "First Baptist Church, 75 N. Main St. 02903",
         start_time: "2019-08-22T22:00:00.000Z",
         end_time: "2019-08-22T23:00:00.000Z",
-        start_col: 2,
-        span: 12,
+        start_col: 0,
+        span: 0,
         color: "#405191"
       },
       {
@@ -68,8 +68,8 @@ let sched1Data =
         location: "Facade Parking Lot, 35 Weybosset St. 02903",
         start_time: "2019-08-23T00:00:00.000Z",
         end_time: "2019-08-23T04:00:00.000Z",
-        start_col: 2,
-        span: 6,
+        start_col: 0,
+        span: 0,
         color: "#405191"
       },
       {
@@ -81,8 +81,8 @@ let sched1Data =
         location: "Secret, undisclosed location",
         start_time: "2019-08-23T01:00:00.000Z",
         end_time: "2019-08-23T04:00:00.000Z",
-        start_col: 8,
-        span: 6,
+        start_col: 0,
+        span: 0,
         color: "#405191"
       },
       {
@@ -94,8 +94,8 @@ let sched1Data =
         location: "Omni, Narragansett Ballroom",
         start_time: "2019-08-23T16:00:00.000Z",
         end_time: "2019-08-23T23:00:00.000Z",
-        start_col: 14,
-        span: 6,
+        start_col: 0,
+        span: 0,
         color: "#405191"
       },
       {
@@ -107,8 +107,8 @@ let sched1Data =
         location: "Across the street from the Graduate Hotel.",
         start_time: "2019-08-23T17:00:00.000Z",
         end_time: "2019-08-23T18:30:00.000Z",
-        start_col: 20,
-        span: 6,
+        start_col: 0,
+        span: 0,
         color: "#405191"
       },
       {
@@ -120,8 +120,8 @@ let sched1Data =
         location: "Departs from the Providence Visitor Information Center, 1 Sabin St.",
         start_time: "2019-08-23T18:30:00.000Z",
         end_time: "2019-08-23T20:00:00.000Z",
-        start_col: 20,
-        span: 6,
+        start_col: 0,
+        span: 0,
         color: "#405191"
       },
       {
@@ -133,8 +133,8 @@ let sched1Data =
         location: "L'Apogee, Graduate 17th Floor",
         start_time: "2019-08-24T00:00:00.000Z",
         end_time: "2019-08-24T02:00:00.000Z",
-        start_col: 14,
-        span: 6,
+        start_col: 0,
+        span: 0,
         color: "#405191"
       },
       {
@@ -146,8 +146,8 @@ let sched1Data =
         location: "Black Sheep, 297 Westminster St. 02903",
         start_time: "2019-08-24T00:00:00.000Z",
         end_time: "2019-08-24T03:00:00.000Z",
-        start_col: 20,
-        span: 6,
+        start_col: 0,
+        span: 0,
         color: "#405191"
       },
       {
@@ -159,8 +159,8 @@ let sched1Data =
         location: "Biltmore Ballroom, Graduate 17th Floor",
         start_time: "2019-08-24T02:00:00.000Z",
         end_time: "2019-08-24T04:00:00.000Z",
-        start_col: 14,
-        span: 6,
+        start_col: 0,
+        span: 0,
         color: "#405191"
       },
       {
