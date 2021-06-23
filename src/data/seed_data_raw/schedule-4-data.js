@@ -87,19 +87,6 @@ let sched4Data =
         color: sched4Color
       },
       
-      {
-        id: 157,
-        schedule_id: 4,
-        event_name: "Feature Film: Starfish",
-        speaker: "",
-        summary: "Open to the public ($5/free for pass-holder) Runtime - 1:41",
-        location: "RISD Metcalf Auditorium, Chace Center 20 N. Main St. 02903",
-        start_time: new Date(2019, 7, 23, 19, 45).toISOString(),
-        end_time: new Date(2019, 7, 23, 11, 45).toISOString(),
-        start_col: 0,
-        span: 0,
-        color: sched4Color
-      },
 
       {
         id: 158,
