@@ -30,7 +30,6 @@ async function addUser (newUser) {
     try {
 
         const newSchedId = await db("schedules").insert({personal_schedule: true});
-  
 
         const editedNewUser = {...newUser, schedule_id: newSchedId};
 

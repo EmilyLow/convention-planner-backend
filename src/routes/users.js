@@ -9,8 +9,6 @@ const jwt = require("jsonwebtoken");
 const secrets = require("../secrets");
 
 
-//TODO Double check this works
-//TODO Check if this needs to happen elsewhere, add once you know it works
 router.get('/', restrict, async(req, res, next) => {
     try{
         res.json(await Users.find());
@@ -21,7 +19,6 @@ router.get('/', restrict, async(req, res, next) => {
 })
 
 
-//Leaving this unrestricted temporarily
 router.get('/:id', async (req, res, next) => {
     const id = req.params.id;
 
@@ -31,17 +28,6 @@ router.get('/:id', async (req, res, next) => {
         next(err);
     }
 })
-
-// router.get('/:id/events', async (req, res, next) => {
-//     const id = req.params.id;
-//     console.log("Test console log");
-//     try {
-//         res.json(await Users.findUserEvents(id));
-//     } catch {
-//         next(err);
-//     }
-// })
-
 
 
 router.post('/auth/register', async (req, res, next) => {

@@ -18,7 +18,7 @@ async function findById(id) {
 
 }
 
-//ToDo: Check functional
+
 async function findScheduleEvents(schedule_id) {
     try {
        return await db.select().table("events").where("schedule_id", schedule_id);
