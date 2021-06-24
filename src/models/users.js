@@ -1,8 +1,6 @@
 const db = require("../data/db-config");
 
-
 module.exports = {find, findById, findByUsername, addUser, updateUser, removeUser};
-
 
 
 async function find() {
@@ -26,24 +24,13 @@ async function findByUsername(username) {
 }
 
 
-// async function findUserEvents(user_id) {
-//     try {
-//         return await db.select().table("user_event").innerJoin("events", "events.id", "user_event.event_id").where("user_event.user_id", user_id);
-//     } catch (err) {
-//         console.log(err);
-//         return "Error retrieving events for user: ", err;
-//     }
-// }
 
 async function addUser (newUser) {
    
     try {
-        //First make a new schedule for the user
 
-        //TODO: Does this work?
         const newSchedId = await db("schedules").insert({personal_schedule: true});
-     
-      
+  
 
         const editedNewUser = {...newUser, schedule_id: newSchedId};
 

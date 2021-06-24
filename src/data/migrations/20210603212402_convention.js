@@ -2,9 +2,9 @@
 exports.up = async function(knex) {
   await knex.schema.createTable("schedules", function(table) {
     table.increments("id");
-  //   table.text("schedule_name").notNull().unique();
-      table.text("schedule_name");
-    //Does this need to be in '', e.g. 'false'?
+
+    table.text("schedule_name");
+
     table.boolean("personal_schedule").defaultTo(false).notNull();
   })
 
@@ -23,7 +23,7 @@ exports.up = async function(knex) {
 
   })
 
-  //TODO Making a new user should make a new schedule and assign it to the user (or user to it)
+ 
   await knex.schema.createTable("users", function(table) {
     table.increments("id");
     table.integer("schedule_id").notNull().references("id").inTable("schedules");
