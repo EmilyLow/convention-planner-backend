@@ -991,20 +991,7 @@ let sched2Data =
   },
 
 
-    // //Template
-    // {
-    //   id: ,
-    //   schedule_id: 2,
-    //   event_name: "",
-    //   speaker: "",
-    //   summary: "",
-    //   location: "",
-    //   start_time: new Date(2019, 7, 24, 8, 0).toISOString(),
-    //   end_time: new Date(2019, 7, 24, 12, 0).toISOString(),
-    //   start_col: 0,
-    //   span: 0,
-    //   color: sched2Color
-    // },
+
 ];
 
 module.exports = {sched2Data};

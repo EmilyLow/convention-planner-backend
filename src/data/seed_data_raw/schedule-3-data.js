@@ -32,19 +32,7 @@ let sched3Data =
         span: 0,
         color: sched3Color
       },
-      // {
-      //   id: 98,
-      //   schedule_id: 3,
-      //   event_name: "CoC 7th Ed. Pulp MD: Final Flight of the Metal Gods",
-      //   speaker: "Paul Zane",
-      //   summary: "Final Flight of the Metal Gods “Live to fly, fly to live, do or die!” - The Tome of Worlds tour is underway! Adamantine Damsel, the most successful heavy metal band in history, has received critical acclaim for their latest album Tome of Worlds, with its vivid imagery and powerful music. It’s a bittersweet victory for the band, as they embark on their farewell tour. As members of the band, you will fly the globe on tour aboard “Ad Force One”, a customized Boeing 747 jumbo jet. Feel drawn to the chanting hoards of millions of fans across the world and take to the stage one last time in this brave new world. It’s Metal vs. Mythos in this two-fisted, action-packed modern era 7th Ed. Pulp Cthulhu scenario.",
-      //   location: "Graduate 18th Floor",
-      //   start_time: new Date(2019, 7, 22, 17, 0).toISOString(),
-      //   end_time: new Date(2019, 7, 22, 22, 45).toISOString(),
-      //   start_col: 0,
-      //   span: 0,
-      //   color: sched3Color
-      // },
+  
       {
         id: 99,
         schedule_id: 3,
@@ -58,19 +46,7 @@ let sched3Data =
         span: 0,
         color: sched3Color
       },
-      // {
-      //   id: 100,
-      //   schedule_id: 3,
-      //   event_name: "Lovecraftesque",
-      //   speaker: "Matt Hawkes",
-      //   summary: "Lovecraftesque is the GM'less storytelling game of brooding cosmic horror you’ve been waiting for. You tell the story of a lone Witness at the mercy of strange and terrifying events. The game helps you create a slow-building mystery, culminating in a climactic scene of horror. You create your own monsters and mystery that feel like something out of Lovecraft’s notebook. All the players contribute clues to surprise and creep each other out. The rules ensure that the story flows seamlessly, as if an invisible GM were guiding it. There won’t be any Mi-Go or Deep Ones—a fresh take on the genre.",
-      //   location: "Graduate 18th Floor",
-      //   start_time: new Date(2019, 7, 22, 17, 0).toISOString(),
-      //   end_time: new Date(2019, 7, 22, 20, 45).toISOString(),
-      //   start_col: 0,
-      //   span: 0,
-      //   color: sched3Color
-      // },
+
       {
         id: 101,
         schedule_id: 3,
@@ -84,19 +60,6 @@ let sched3Data =
         span: 0,
         color: sched3Color
       },
-      // {
-      //   id: 102,
-      //   schedule_id: 3,
-      //   event_name: "Call of Cthulhu: Camp Sunny",
-      //   speaker: "C. A. Cromer",
-      //   summary: "Camp Sunny — It's been a particularly brutal semester so you and some of your friends have decided to blow off reading days in favor of a long weekend of r&r. One of your group has suggested you stay at a vacation camp. Since it's the off season you'll get the place mostly to yourself and save a couple bucks. Eventually, everyone comes around and clambers into the van you've all chipped in to rent. After a peaceful roadtrip, you see the first sign: Campy Sunny 20MI. It shouldn't be too long until you all arrive for what will surely be a rejuvenating couple of days away from the halls of academia. \n \n This scenario is fairly open-ended and lends itself to strong role-playing. The tone of the adventure will largely be determined by the tone of the player group. Whether mind-numbing terror, a campy splat fest, or something entirely unexpected, the goal is to have fun telling a story together. No experience with Chaosium's Cthulhu rpg required.",
-      //   location: "Graduate 18th Floor",
-      //   start_time: new Date(2019, 7, 22, 19, 0).toISOString(),
-      //   end_time: new Date(2019, 7, 22, 22, 45).toISOString(),
-      //   start_col: 0,
-      //   span: 0,
-      //   color: sched3Color
-      // },
       {
         id: 103,
         schedule_id: 3,
@@ -162,19 +125,6 @@ let sched3Data =
         span: 0,
         color: sched3Color
       },
-      // {
-      //   id: 108,
-      //   schedule_id: 3,
-      //   event_name: "Call of Cthulhu: After Dark",
-      //   speaker: "L. Hardy",
-      //   summary: "You are working at an “After Dark” session at a local museum—one of a series of special events designed to encourage people into museums who might not otherwise visit them. Tonight things should be interesting: they’re bringing in a local psychic to “read” some of the museum’s objects. What could possibly go wrong? System: Call of Cthulhu 7 th Ed Players: 4-6 (pregenerated characters will be provided) No experience necessary.",
-      //   location: "Graduate 18th Floor",
-      //   start_time: new Date(2019, 7, 23, 10, 0).toISOString(),
-      //   end_time: new Date(2019, 7, 23, 13, 45).toISOString(),
-      //   start_col: 0,
-      //   span: 0,
-      //   color: sched3Color
-      // },
       {
         id: 109,
         schedule_id: 3,
@@ -279,19 +229,6 @@ let sched3Data =
         span: 0,
         color: sched3Color
       },
-      // {
-      //   id: 117,
-      //   schedule_id: 3,
-      //   event_name: "CoC 7th Ed: Where Chaos Reigns",
-      //   speaker: "Matt Ryan",
-      //   summary: "Charles Booth, Jr. is missing. The son of a Detroit newspaper tycoon, Charles – better known as “Chuck” – went missing during the Meuse-Argonne Offensive, one of the most brutal campaigns of the Great War. Now, ten years later, someone resembling Chuck was spotted in one of Berlin’s most notorious cabarets. The player characters are other Booth family members and staff, sent by the father, Charles Booth, Sr., to find Chuck. Before leaving, Charles, Sr. warns them that Berlin under the Weimar Republic is the epicenter of sin and vice in Europe. When the group’s Berlin contact goes missing, the investigators are plunged into a world of intrigue and horror, as they visit lascivious nightclubs, insane asylums, and prisons to unravel the mystery of the missing Charles Booth, Jr. Set in Berlin in 1928, “Where Chaos Reigns” is a Call of Cthulhu 7th Edition scenario for 4-6 players, and contains adult themes and situations, including nudity, fascism, queer culture, and abduction. Knowledge of Chaosium’s latest Call of Cthulhu supplement, Berlin: The Wicked City is helpful but not necessary.",
-      //   location: "Graduate 18th Floor",
-      //   start_time: new Date(2019, 7, 23, 17, 0).toISOString(),
-      //   end_time: new Date(2019, 7, 23, 20, 45).toISOString(),
-      //   start_col: 0,
-      //   span: 0,
-      //   color: sched3Color
-      // },
       {
         id: 118,
         schedule_id: 3,
@@ -384,19 +321,6 @@ let sched3Data =
         span: 0,
         color: sched3Color
       },
-      // {
-      //   id: 125,
-      //   schedule_id: 3,
-      //   event_name: "CoC: Tokens of Tragedy",
-      //   speaker: "Eric Roberts",
-      //   summary: "Investigators are tasked with finding a slew of missing people whose only connection are game tokens found at the locations where the people were last seen. Will the investigators crack the case, or will they find themselves missing and having to play the game of their lives? Join our adventures if you double dare!",
-      //   location: "Graduate 18th Floor",
-      //   start_time: new Date(2019, 7, 24, 8, 30).toISOString(),
-      //   end_time: new Date(2019, 7, 24, 12, 15).toISOString(),
-      //   start_col: 0,
-      //   span: 0,
-      //   color: sched3Color
-      // },
       {
         id: 126,
         schedule_id: 3,
@@ -423,19 +347,6 @@ let sched3Data =
         span: 0,
         color: sched3Color
       },
-      // {
-      //   id: 128,
-      //   schedule_id: 3,
-      //   event_name: "Astonishing Swordsmen & Sorcerers of Hypeborea",
-      //   speaker: "Timothy Deschene",
-      //   summary: "The Mystery at Port Greely An adventure in Hyperborea designed for from four to six characters of 4th through 6th level. Characters Provided. The Mystery at Port Greely takes players into an action-packed realm of adventure: the mythical world of Hyperborea, a sword-and-sorcery campaign setting inspired by the fantastic fiction of Robert E. Howard, H.P. Lovecraft, Clark Ashton Smith, and others. This adventure is designed for Astonishing Swordsmen & Sorcerers of Hyperborea (AS&SH), a role-playing game descended from the original 1974 fantasy wargame and miniatures campaign rules as conceived by E. Gary Gygax and Dave Arneson.",
-      //   location: "Graduate 18th Floor",
-      //   start_time: new Date(2019, 7, 24, 10, 0).toISOString(),
-      //   end_time: new Date(2019, 7, 24, 13, 45).toISOString(),
-      //   start_col: 0,
-      //   span: 0,
-      //   color: sched3Color
-      // },
       {
         id: 129,
         schedule_id: 3,
@@ -462,19 +373,6 @@ let sched3Data =
         span: 0,
         color: sched3Color
       },
-      // {
-      //   id: 131,
-      //   schedule_id: 3,
-      //   event_name: "Lovecraftesque",
-      //   speaker: "Matt Hawkes",
-      //   summary: "Lovecraftesque is the GM'less storytelling game of brooding cosmic horror you’ve been waiting for. You tell the story of a lone Witness at the mercy of strange and terrifying events. The game helps you create a slow-building mystery, culminating in a climactic scene of horror. You create your own monsters and mystery that feel like something out of Lovecraft’s notebook. All the players contribute clues to surprise and creep each other out. The rules ensure that the story flows seamlessly, as if an invisible GM were guiding it. There won’t be any Mi-Go or Deep Ones—you’ll get a completely fresh take on the genre.",
-      //   location: "Graduate 18th Floor",
-      //   start_time: new Date(2019, 7, 24, 12, 30).toISOString(),
-      //   end_time: new Date(2019, 7, 24, 16, 15).toISOString(),
-      //   start_col: 0,
-      //   span: 0,
-      //   color: sched3Color
-      // },
       {
         id: 132,
         schedule_id: 3,
@@ -488,32 +386,7 @@ let sched3Data =
         span: 0,
         color: sched3Color
       },
-      // {
-      //   id: 133,
-      //   schedule_id: 3,
-      //   event_name: "CoC 7th Ed. Dark Ages of Cthulhu: The Search for Brian Boru",
-      //   speaker: "Dan Combs",
-      //   summary: "Welcome to dark ages Ireland. Hope has long since faded for your land, but the Sidhe promise to raise your fallen king from the dead. Be warned: the quest they demand is dangerous and the costs are extreme. What would you give up to return your village to prosperity and hope? This dark and moody scenario delves into the fantasy and horror of Irish myth, but still touches the themes of HP Lovecraft's works. Pregenerated adventurers provided. (Call of Cthulhu 7th Edition - Dark Ages Cthulhu, 6 players per table, 4 hours long; intermediate)",
-      //   location: "Graduate 18th Floor",
-      //   start_time: new Date(2019, 7, 24, 13, 30).toISOString(),
-      //   end_time: new Date(2019, 7, 24, 17, 15).toISOString(),
-      //   start_col: 0,
-      //   span: 0,
-      //   color: sched3Color
-      // },
-      // {
-      //   id: 134,
-      //   schedule_id: 3,
-      //   event_name: "Extra Life Charity Game",
-      //   speaker: "Edwin Nagy, Sean Murphy",
-      //   summary: "Extra! Extra! Extra Life! New England Gamers is sponsoring two exciting sessions of madcap Call of Cthulhu in support of Extra Life, a charity dedicated to the Children’s Miracle Network Hospitals. In this game, you will play investigators searching for relics, tomes, and arcane ingredients to allow you to conduct a ritual to save the world. Your characters will travel through time and space as you move from table to table enjoying a series of 30-minute escapades, each run by a different keeper and each set in a different reality. During the play, you will be encouraged (but NOT required) to make donations to Extra Life to change the game. Is another table getting too far ahead of yours in their search—perhaps a few shoggoths need to land on their table. Feeling like you’d like a more powerful weapon—that’s nothing that money can’t fix! As your investigators die and go insane (and they will—last year we went through about 50 characters in 4 hours), you step aside to make room for another player and can enjoy watching others die spectacular deaths until your turn at the table comes around again. Play for as little as 10 minutes, or enjoy the whole 3 hour ride. Great for first time players as we run a simplified version of the game and basically anything goes. Keepers will include folks from Chaosium, The Good Friends of Jackson Elias podcast, the Miskatonic University Podcast, the Skype of Cthulhu podcast, and a host of other wonderful folks.",
-      //   location: "Graduate 18th Floor",
-      //   start_time: new Date(2019, 7, 24, 8, 0).toISOString(),
-      //   end_time: new Date(2019, 7, 24, 12, 0).toISOString(),
-      //   start_col: 0,
-      //   span: 0,
-      //   color: sched3Color
-      // },
+     
       {
         id: 135,
         schedule_id: 3,
@@ -725,21 +598,7 @@ let sched3Data =
       },
 
    
-      //Copy one
-    //   {
-    //     id: ,
-    //     schedule_id: 3,
-    //     event_name: "",
-    //     speaker: "",
-    //     summary: "",
-    //     location: "Graduate 18th Floor",
-    //     start_time: new Date(2019, 7, 25, 8, 0).toISOString(),
-    //     end_time: new Date(2019, 7, 25, 12, 0).toISOString(),
-    //     start_col: 0,
-    //     span: 0,
-    //     color: sched3Color
-    //   },
-     
+
    
     
 ];

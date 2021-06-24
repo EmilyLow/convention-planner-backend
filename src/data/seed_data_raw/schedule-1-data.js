@@ -1,7 +1,6 @@
 //Core
 
 
-//Note: Not adding Ars Necronomica Art exhibition. Can do that later if wanted
 
 let sched1Color = "#405191";
 
@@ -250,7 +249,7 @@ let sched1Data =
       {
         id: 19,
         schedule_id: 1,
-        event_name: "Lovecraftian/Weird Trivia Hour and 'Drunk Lovecraftian History'",
+        event_name: "Lovecraftian/Weird Trivia Hour",
         speaker: "",
         summary: "",
         location: "",
@@ -334,21 +333,6 @@ let sched1Data =
 
       
 
-    
-      //Template
-      // {
-      //   id: ,
-      //   schedule_id: 1,
-      //   event_name: "",
-      //   speaker: "",
-      //   summary: "",
-      //   location: "",
-      //   start_time: new Date(2019, 7, 25, 8, 0).toISOString(),
-      //   end_time: new Date(2019, 7, 25, 12, 0).toISOString(),
-      //   start_col: 0,
-      //   span: 0,
-      //   color: sched1Color
-      // },
 ];
 
 module.exports = {sched1Data};

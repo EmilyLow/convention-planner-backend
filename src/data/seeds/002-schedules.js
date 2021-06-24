@@ -11,6 +11,8 @@ exports.seed = function(knex) {
         {id: 4, schedule_name: 'Shows', personal_schedule: false},
         {id: 5, personal_schedule: true},
         {id: 6, personal_schedule: true},
+        {id: 7, personal_schedule: true},
+        {id: 8, personal_schedule: true},
       ]);
     });
 };
