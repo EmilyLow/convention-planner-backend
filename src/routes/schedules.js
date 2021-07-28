@@ -35,5 +35,16 @@ router.get('/:id/events', async function(req, res, next) {
 
 });
 
+router.delete('/:id/events', async function(req, res, next) {
+
+    const id = req.params.id;
+
+    try{
+        res.json(await Schedules.deleteScheduleEvents(id));
+    } catch(err) {
+        next(err);
+    }
+});
+
 
 module.exports = router;
