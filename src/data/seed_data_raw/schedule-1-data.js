@@ -194,7 +194,7 @@ let sched1Data =
         schedule_id: 1,
         event_name: "Guests of Honor",
         speaker: "Peter Cannon, Kenneth Hite, Victor LaVelle, Sonya Taaffe, Molly Tanzer, Dempow Torishima, Paul Tremblay, s.j. bagley (M)",
-        summary: "Please join us asa we introduce and celebrate the Guests of Honor for NecronomiCon Providence 2019, follow by a discussion with the audience.",
+        summary: "Please join us as we introduce and celebrate the Guests of Honor for NecronomiCon Providence 2019, follow by a discussion with the audience.",
         location: "Grand Ballroom, Biltmore 17th Floor",
         start_time: new Date(2019, 7, 23, 16, 30).toISOString(),
         end_time: new Date(2019, 7, 23, 17, 45).toISOString(),
