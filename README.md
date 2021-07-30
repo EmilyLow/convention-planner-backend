@@ -16,11 +16,11 @@ https://convention-planner-backend.herokuapp.com/
 
 ### Schedule Schema
 
-id=[integer]
-schedule_name:[String]
-personal_schedule:[boolean]
+id=[integer]  
+schedule_name:[String]  
+personal_schedule:[boolean]  
 
-Example
+Example:
 
 ```
 {
@@ -50,7 +50,7 @@ event_name: [String]
 start_time: [String] Format: "YYYY-MM-DDTHH:MM:SSZ"  
 end_time: [String] Format: "YYYY-MM-DDTHH:MM:SSZ"  
 
-Not required:
+Not required:  
 speaker: [String]  
 summary: [String]  
 location: [String]  
